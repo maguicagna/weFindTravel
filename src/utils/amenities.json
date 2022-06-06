@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "amenity": "Television"
+    },
+    {
+        "id":2,
+        "amenity": "Aire acondicionado"
+    },
+    {
+        "id":3,
+        "amenity": "Wi-fi"
+    },
+    {
+        "id":4,
+        "amenity": "Pileta"
+    },
+    {
+        "id":5,
+        "amenity": "Pet friendly"
+    },
+    {
+        "id":6,
+        "amenity": "Estacionamiento"
+    },
+    {
+        "id":7,
+        "amenity": "Spa"
+    }
+]

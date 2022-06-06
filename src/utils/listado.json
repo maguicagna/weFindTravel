@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "img":"https://images.unsplash.com/photo-1631049307264-da0ec9d70304?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470",
+        "category":"Hoteles",
+        "titulo":"Hermitage hotel",
+        "location":"Mar del Plata",
+        "descripcion":"Meow more napping, more napping all the napping is exhausting or lick master's hand at first then bite because im moody demand to be let outside at once, and expect owner to wait for me as i think about it."
+    },
+    {
+        "id":2,
+        "img":"https://images.unsplash.com/photo-1555854877-bab0e564b8d5?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469",
+        "category":"Hostels",
+        "titulo":"Edinburgh Backpackere hostel",
+        "location":"Edinburgh",
+        "descripcion":"In the middle of the night i crawl onto your chest and purr gently to help you sleep while happily ignoring when being called walk on keyboard cough furball that box? i can fit in that box for rub whiskers on bare skin act innocent."
+    },
+    {
+        "id":3,
+        "img":"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470",
+        "category":"Departamentos",
+        "titulo":"Depto 5 ambientes",
+        "location":"Paris",
+        "descripcion":"Proudly present butt to human scream at teh bath why must they do that, but meow, bite the neighbor's bratty kid ears back wide eyed i like fish."
+    },
+    {
+        "id":4,
+        "img":"https://images.unsplash.com/photo-1623625434462-e5e42318ae49?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471",
+        "category":"Bed & Breakfast",
+        "titulo":"Antiguo solar del lago",
+        "location":"Bariloche",
+        "descripcion":"Paw at beetle and eat it before it gets away. Catty ipsum munch, munch, chomp, chomp refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am climb leg, and reward the chosen human with a slow blink. Fish i must find my red catnip fishy fish. Taco cat backwards spells taco cat make it to the carpet before i vomit mmmmmm but catty ipsum or chew foot, i like to spend my days sleeping and eating fishes that my human fished for me we live on a luxurious yacht, sailing proudly under the sun, i like to walk on the deck, watching the horizon, dreaming of a good bowl of milk and meeeeouw."
+    },
+    {
+        "id":5,
+        "img":"https://images.unsplash.com/photo-1631049307264-da0ec9d70304?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470",
+        "category":"Hoteles",
+        "titulo":"The Ritz-Carlton",
+        "location":"Aruba",
+        "descripcion":"Kitten is playing with dead mouse the dog smells bad but rub whiskers on bare skin act innocent for vommit food and eat it again but jump on human and sleep on her all night long be long in the bed, purr in the morning and then give a bite to every human around for not waking up request food, purr loud scratch the walls, the floor, the windows, the humans for sit in a box for hours."
+    },
+    {
+        "id":6,
+        "img":"https://images.unsplash.com/photo-1555854877-bab0e564b8d5?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469",
+        "category":"Hostels",
+        "titulo":"Madrid hostel",
+        "location":"Madrid",
+        "descripcion":"Hack knock over christmas tree but i shredded your linens for you rub my belly hiss. Claws in the eye of the beholder. Look at dog hiiiiiisssss hiiiiiiiiii feed me now fight own tail, or hate dogs make plans to dominate world and then take a nap but what the heck just happened, something feels fishy."
+    },
+    {
+        "id":7,
+        "img":"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470",
+        "category":"Departamentos",
+        "titulo":"Departamento 2 ambientes",
+        "location":"Mar del plata",
+        "descripcion":"Scratch leg; meow for can opener to feed me. Behind the couch dead stare with ears cocked and step on your keyboard while you're gaming and then turn in a circle sleeps on my head and annoy owner until he gives you food say meow repeatedly until belly rubs, feels good eat fish on floor. Destroy couch as revenge."
+    },
+    {
+        "id":8,
+        "img":"https://images.unsplash.com/photo-1623625434462-e5e42318ae49?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471",
+        "category":"Bed & Breakfast",
+        "titulo":"Huli B&B",
+        "location":"Mendoza",
+        "descripcion":"I could pee on this if i had the energy climb a tree, wait for a fireman jump to fireman then scratch his face, so i'm bored inside, let me out i'm lonely outside, let me in i can't make up my mind whether to go in or out, guess i'll just stand partway in and partway out, contemplating the universe for half an hour how dare you nudge me with your foot?!?! leap into the air in greatest offense!. Cat slap dog in face chase mice."
+    }
+]

@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* GLOBAL */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* HEADER */
+.home-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 1.4rem 0.4rem 1.5rem;
+    margin-bottom: 0.4rem;
+}
+.logo{
+    cursor: pointer;
+}
+
+.user-btn{
+    background-color: inherit;
+    border: 1px solid #1DBEB4;
+    border-radius: 5px;
+    color: #1DBEB4;
+    cursor: pointer;
+    margin-left: .9rem;
+    text-decoration: none;
+    padding: 0.6rem 2.2rem;
+}
+
+.menu-hamburguesa{
+    align-self: center;
+    background-color: inherit;
+    border: none;
+    color: #1DBEB4;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: .5rem;
+    display: none;
+}
+
+/* SIDEBAR */
+ .sidebar{
+    display: none;
+}
+
+
+/* BANNER DE BUSQUEDA */
+.banner{
+    background-color: #545776;
+    display: flex;
+        flex-direction: column ;
+        align-items: center;
+    padding: 3rem;
+}
+
+.banner h1{
+    color: white;    
+}
+
+.banner form{
+    margin-top: 1.5rem;
+}
+.banner input, select{
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    margin-right: 1rem;
+    padding: 0.4rem;
+    width: 18rem;
+    position: relative;
+}
+
+
+.react-calendar{
+    position: absolute;
+    left: 22rem;
+    width: 18rem;
+
+}
+
+.buscar-btn{
+    background-color: #1DBEB4;
+    border: 1px solid #1DBEB4;
+    color: white;
+    border-radius: 5px;
+    padding: 0.4rem 2rem;
+}
+
+/* CALENDARIO */
+
+.rdrCalendarWrapper{
+    position:absolute;
+    left:46%;
+    margin-top: 3.5%;
+    width: 45em;
+  }
+  
+  .rdrMonthAndYearPickers{
+    color: #383B58;
+  }
+
+/* MAIN */
+main{
+    width: 95vw;
+    margin: 3rem auto;
+}
+
+.title{
+    color: #383B58;
+    margin-top: 2rem;
+}
+
+/* CATEGORIAS */
+.cards-categorias{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;   
+}
+
+.single-category{
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 310px;
+
+}
+
+.single-category h4{
+    color:#383B58;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+
+.single-category p{
+    color: #616376;
+    font-size: 14px;
+}
+
+.cat-img{
+    width: 310px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cat-info{
+    padding: 8px;
+}
+
+/* RECOMENDACIONES */
+.cards-alojamiento{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 1rem;
+}
+.alojamiento-item{
+    border-radius: 0.6rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    height: 220px;
+    margin-bottom: 1.5rem;
+    width: 635px;
+}
+.item-img{
+    border-radius: 0.6rem 0px 0px 0.6rem;
+    width: 311px;
+}
+.card-header{
+    display: flex;
+      justify-content: space-between;
+}
+.card-rating{
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.rating-number{
+    background-color: #383B58;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: .3rem;
+    padding: .5rem 0px;
+    text-align: center;
+    width: 56%;
+}
+.item-info{
+    color: #383B58;
+    display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    padding: 1rem;
+}
+.categoria{
+    color: #616376;
+}
+.item-info p {
+    font-size: 14px;
+}
+.vermas-btn{
+    background-color: #1DBEB4;
+    border: 1px solid #1DBEB4;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.4rem 4rem;
+}
+
+/* FOOTER */
+footer{
+    background-color: #1DBEB4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+}
+.marca{
+    align-self: center;
+}
+.redes{
+    align-self: center;
+    
+}
+.redes *{
+    margin: 0px 0.4rem;  
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+    .user-btn{
+        display: none;
+    }
+    .menu-hamburguesa{
+        display: inline;
+        margin-right: .5rem;
+    }
+    main{
+        width: 100vw;
+        margin: 3rem auto 0px;
+    }
+    /* SIDEBAR */
+    .sidebar{
+        background-color:white;
+        display: block;
+        height: 100vh;
+        position: absolute;
+            top: 0;
+            right: 0;
+        width: 50vw;
+        z-index: 1;
+    }
+    .sidebar-header{
+        background-color: #1DBEB4;
+        height: 30vh;
+    }
+    
+    .sidebar-close{
+        background-color: inherit;
+        border: none;
+        color: white;
+        font-size: 20px;
+        margin: 1rem;   
+    }
+    .sidebar-header h2{
+        color: white;
+        position: relative;
+            top:  65% ;
+            left: 63%;
+    }
+    .menu-items{
+        display: flex;
+            flex-direction: column;
+    }
+    .sidebar-btn{
+        background-color: inherit;
+        border: none;
+        color: #383B58;
+        font-weight: 700;
+        margin-top: 1rem;
+        padding: .8rem 0px;
+        position: relative;
+            left: 48%;
+        width: 98px;
+    }
+    
+    /* Header y banner de busqueda */ 
+    .banner h1{
+        font-size: 24px;
+    }
+    form > *{
+        margin: .5rem;
+    }
+
+    .buscar-btn{
+        width: 92%;
+    }
+   
+   
+
+    /* Categorias */
+    .categorias{
+        width: 90%;
+        margin: auto;
+    }
+    .cards-categorias{
+        display: flex;
+            flex-direction: column;
+    }
+    .single-category{
+        margin-bottom: 1rem;;
+    }
+    .single-category, .cat-img{
+        width: 100%;
+    }
+   
+
+    /* Listado */
+    .listado{
+        background-color: #383B58;
+    }
+    .title-listado{
+        color: #E5E5E5;
+        margin: 1.5rem 0px 1rem 0px;
+        padding: 1rem 0rem 0.2rem 1.4rem;
+    }
+    .cards-alojamiento{
+        width: 90%;
+        margin: auto;
+        display: flex;
+            flex-direction: column;        
+    }
+
+    .alojamiento-item{
+        background-color: #E5E5E5;
+        display: flex;
+            flex-direction: column;
+        height: auto;
+        width:100%;
+    } 
+    .item-img{
+        border-radius: 0.6rem 0.6rem 0rem 0rem;
+        width: 100%;
+    }
+    .item-info > *{
+        margin-bottom: .6rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    /* main */
+    main{
+        width: 85vw;
+        margin: 3rem auto;
+    }
+    /* sidebar */
+    .sidebar{
+        display: none;
+    }
+    /* categorias */
+    .cards-categorias{
+        display: grid;
+            grid-template-columns: 50% 50%;
+            row-gap: 1.5rem;
+        
+    }
+
+    /* listado */
+    .cards-alojamiento{
+        display: flex;
+            flex-direction: column;
+        
+    }
+    .alojamiento-item{
+        width: 100%;
+    }
+    .item-info{
+        padding: 1.5rem;
+    }
+
+}
+
